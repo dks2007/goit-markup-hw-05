@@ -475,6 +475,10 @@ p, h1, h2, h3, h4, h5, h6 {
   z-index: 10;
 }
 
+.modern-label {
+  gap: 24px;
+}
+
 .modal-c {
   width: 408px;
   min-height: 584px;
@@ -526,7 +530,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 }
 
-.modal-form {
+.modern-form {
 border-radius: 4px;
 width: 360px;
 height: 336px;
