@@ -617,10 +617,39 @@ background-color: #ffffff;
 }
 
 .label-div {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+}
+
+.label-div-two {
+  position: relative;
+}
+
+.input-div {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-div:focus {
+  border-color: #4D5AE5;
+}
+
+.icon-svg-user {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-svg-user:focus {
+  fill: #4D5AE5;
 }
