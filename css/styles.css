@@ -615,3 +615,12 @@ background-color: #ffffff;
 .div-form {
   margin-bottom: 8px;
 }
+
+.label-div {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
