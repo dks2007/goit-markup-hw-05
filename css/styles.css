@@ -479,6 +479,20 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 24px;
 }
 
+.modern-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   color: #ffffff;
+}
+
 .modal-c {
   width: 408px;
   min-height: 584px;
@@ -492,14 +506,13 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 24px ;
 }
 
-.modal-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border: none;
-  background: transparent;
+.modern-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .modern-title {
@@ -512,22 +525,8 @@ color: #ffffff;
 margin-bottom: 16px;
 }
 
-.modal-input {
-  width: 100%;
-  background-color: transparent;
-  border: 1px solid #4d5ae5;
-  border-radius: 4px;
-  height: 40px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.modal-input::placeholder {
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.04em;
-color: #8e8f99;
+.modern-input::placeholder {
+  color: #ffffff;
 }
 
 .modern-form {
