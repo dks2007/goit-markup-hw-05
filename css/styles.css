@@ -584,11 +584,13 @@ background-color: #ffffff;
 .modal-ct-btn:hover{
   background-color: #404bbf;
   border: none;
+  fill: #ffffff
 }
 
 .modal-ct-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff
 }
 
 .icon-svg-close{
