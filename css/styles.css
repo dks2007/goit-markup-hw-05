@@ -618,6 +618,10 @@ background-color: #ffffff;
   margin-bottom: 8px;
 }
 
+.checkbox-div {
+  margin-bottom: 24px;
+}
+
 .label-div {
   font-size: 12px;
   line-height: 1.17;
@@ -656,4 +660,14 @@ background-color: #ffffff;
 
 .icon-svg-user:focus {
   fill: #4D5AE5;
+}
+
+.textarea-div {
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
+  resize: none;
 }
