@@ -479,8 +479,8 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 24px;
 }
 
-.resum-form-lable {
-
+.footer-resum {
+  margin-left: 80px;
 }
 
 .input-resum {
