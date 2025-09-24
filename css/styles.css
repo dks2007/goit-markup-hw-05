@@ -758,3 +758,7 @@ background-color: #ffffff;
 .textarea-form {
   margin-bottom: 16px;
 }
+
+.papagemabodi:focus {
+  border-color: #4D5AE5;
+  }
