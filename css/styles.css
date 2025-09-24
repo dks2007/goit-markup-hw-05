@@ -702,7 +702,7 @@ background-color: #ffffff;
   fill: transparent;
 }
 
-.input-checkbox:checked + span {
+.input-checkbox:checked + .label-div .span-checkbox {
   background-color: var(--checkbox-bg, #404bbf);
   border: none;
   fill: var(--checkbox-icon, #F4F4FD);
