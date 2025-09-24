@@ -665,7 +665,7 @@ background-color: #ffffff;
   outline: transparent;
 }
 
-.input-div:focus + .icon-svg-user {
+.input-div:focus {
   fill: #4D5AE5;
   border-color: #4D5AE5;
 }
@@ -747,13 +747,6 @@ background-color: #ffffff;
 .icon-svg-email {
   display: block;
   fill: currentColor;
-}
-
-.icon-svg-user,
-.icon-svg-phone,
-.icon-svg-email,
-.icon-svg-checkbox,
-.icon-svg-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
