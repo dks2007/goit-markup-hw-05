@@ -608,13 +608,8 @@ background-color: #ffffff;
   background-color: #e7e9fc;
 }
 
-.modal-ct-btn:hover{
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff
-}
-
-.modal-ct-btn:focus {
+.modal-ct-btn:hover > .icon-svg-back,
+.modal-ct-btn:focus > .icon-svg-back {
   background-color: #404bbf;
   border: none;
   fill: #ffffff
@@ -707,7 +702,7 @@ background-color: #ffffff;
   fill: transparent;
 }
 
-.input-checkbox:checked + .label-div .span-checkbox {
+.input-checkbox:checked + span {
   background-color: var(--checkbox-bg, #404bbf);
   border: none;
   fill: var(--checkbox-icon, #F4F4FD);
