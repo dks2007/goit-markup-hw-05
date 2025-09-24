@@ -608,10 +608,15 @@ background-color: #ffffff;
   background-color: #e7e9fc;
 }
 
-.modal-ct-btn:hover > svg,
-.modal-ct-btn:focus > svg {
+.modal-ct-btn:hover,
+.modal-ct-btn:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-ct-btn:hover .icon-svg-back,
+.modal-ct-btn:focus .icon-svg-back {
+  fill: #ffffff;
 }
 
 .icon-svg-back{
@@ -660,8 +665,8 @@ background-color: #ffffff;
   outline: transparent;
 }
 
-.input-div:focus {
-  border-color: #4D5AE5;
+.input-div:focus + .icon-svg-user {
+  fill: #4D5AE5;
 }
 
 .icon-svg-user {
